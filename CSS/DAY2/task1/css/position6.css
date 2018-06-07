@@ -1,0 +1,43 @@
+.box1
+{
+	height: 500px;
+	width: 500px;
+	background-color: #FF4500;
+	position: relative;
+}
+.box2
+{
+	height: 400px;
+	width: 400px;
+	background-color: #FF6347;
+	position: relative;
+	left: 58px;
+	top: 58px;
+}
+.box3
+{
+	height: 300px;
+	width: 300px;
+	background-color: #FFA500;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+.box4
+{
+	height: 200px;
+	width: 200px;
+	background-color: #FFD700;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+.box5
+{
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
