@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <style>
+        body{
+            background-color: gainsboro;
+            column-fill: balance;
+        }
+        input[type = text]
+        {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+         input[type = password]
+        {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .inputText{
+            width:80%;
+            display:inline-block;
+            border :1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" action="valid_admin.php" enctype="multipart/formdata">
+        <table align="center" class="tab">
+            <h1 align="center">LOGIN</h1>
+            <tr>
+                <td>
+                    User name  <i class="fa fa-user"></i> <input id="username" name="un" type="text" placeholder="Enter Username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password <i class="fa fa-key"></i> <input  id="password"  name = "pwd" type="password" placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" class="ipb" name="" value="submit"/>
+                    <a href="register.html"><input type="button" class="ipb" name="" value="signup" align="right" style = "position:relative; float: right" /></a> 
+                </td>
+            </tr>
+    </form>
+</table>
+</body>
+</html>
